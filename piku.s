@@ -8,8 +8,16 @@ main:
     push    {ip, lr}
 
     @ Load the argument and perform the call. This is like 'printf("...")' in C.
-    ldr     r0, =message
+    ldr     r0, =pikuline1
     bl      printf
+
+    ldr     r0, =pikuline2
+    bl      printf
+
+    ldr     r0, =pikuline3
+    bl      printf
+
+
 
     @ Exit from 'main'. This is like 'return 0' in C.
     mov     r0, #0      @ Return 0.
@@ -20,5 +28,11 @@ main:
     @ --------------------------------
     @ Data for the printf call. The GNU assembler's ".asciz" directive
     @ automatically adds a NULL character termination.
-message:
-    .asciz  "Hello, world.\n"
+
+pikuline1:
+    .asciz  "Slow and Tedious\n"  
+pikuline2:
+    .asciz  "Defines the Poly Pi Servers\n"
+pikuline3:
+    .asciz  "And displeases me!"  
+
