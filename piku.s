@@ -34,5 +34,5 @@ pikuline1:
 pikuline2:
     .asciz  "Defines the Poly Pi Servers\n"
 pikuline3:
-    .asciz  "And displeases me!"  
+    .asciz  "And displeases me!\n"  
 
