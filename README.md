@@ -17,3 +17,9 @@ professional, and are easy to read. Use the
 [Markdown Guide](https://guides.github.com/features/mastering-markdown/), and
 have fun! :octocat:
 
+
+#Assignment 1
+
+* Name: Vedant Mehta
+* Status: Incomplete
+* Compilation: make 
